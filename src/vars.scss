@@ -1,0 +1,30 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  --color-blocks-bg: #f5fbef;
+  --color-light: #fff;
+  --color-dark: #1e212c;
+  --color-gray: #787a80;
+  --color-mako: #63656b;
+
+  // --color-primary: #5adbff;
+
+  --color-primary: #6457a6;
+  --color-secondary: #d4cdf4;
+  --color-primary-light: #e2def8;
+  --color-accent: #fbde23;
+
+  // контейнер
+  --container-width: 1070px;
+  --container-width-offset: 15px;
+
+  // переходы
+  --transition: all 0.2s linear;
+
+  // расстояние м/у элементами сетки
+  --grid-gap: 30px;
+  --grid-skill-gap: 30px;
+
+  // радиус главный везде
+  --border-radius: 6px;
+}
